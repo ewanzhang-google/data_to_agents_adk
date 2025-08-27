@@ -40,8 +40,8 @@ else
   API_HOSTNAME="${AUTH_LOCATION}-discoveryengine.googleapis.com"
 fi
 
-CREATE_API_ENDPOINT="https://${API_HOSTNAME}/v1alpha/projects/${PROJECT_ID}/locations/${AUTH_LOCATION}/authorizations?authorizationId=${AUTH_ID}"
-UPDATE_API_ENDPOINT="https://${API_HOSTNAME}/v1alpha/projects/${PROJECT_ID}/locations/${AUTH_LOCATION}/authorizations/${AUTH_ID}"
+CREATE_API_ENDPOINT="https://${API_HOSTNAME}/v1alpha/{parent=projects/${PROJECT_ID}/locations/${AUTH_LOCATION}}/authorizations?authorizationId=${AUTH_ID}"
+UPDATE_API_ENDPOINT="https://${API_HOSTNAME}/v1alpha/{parent=projects/${PROJECT_ID}/locations/${AUTH_LOCATION}}/authorizations/${AUTH_ID}"
 
 
 # --- JSON Payload ---
