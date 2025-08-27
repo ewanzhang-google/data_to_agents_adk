@@ -88,17 +88,17 @@ substitutions:
   _MODEL: 'gemini-2.5-pro'
   _PROJECT_ID: '$PROJECT_ID'
   _PROJECT_NUMBER: '$PROJECT_NUMBER'
-  _BQ_LOCATION: 'asia-southeast1'
+  _BQ_LOCATION: 'US'
   _AE_LOCATION: 'us-central1'
   _AUTH_LOCATION: 'global'
-  _DATASET_NAME: 'cymbal_telco_dataset'
+  _DATASET_NAME: 'ga4_dataset'
   _TABLE_NAMES: ''
   _DISPLAY_NAME: 'CEM_Data_Agent'
-  _AGENTSPACE_ID: '' # IMPORTANT: This must be provided when running the trigger
+  _AGENTSPACE_ID: 'bq-agent_1756327296678' # IMPORTANT: This must be provided when running the trigger
   _AGENT_DESCRIPTION: 'A data agent for the CEM use case.'
   _FEW_SHOT_EXAMPLES_TABLE_FULL_ID: '' # Optional
   _AUTH_ID: 'data-agent-tool-auth'
-  _OAUTH_CLIENT_ID: '463108075328-ga42iip18h6a8pvnjv50dniu5231h3s8.apps.googleusercontent.com'
+  _OAUTH_CLIENT_ID: '991395937688-emt4tuqjl0995bffueqmq5ucqmle35f8.apps.googleusercontent.com'
 
 # Specify the service account for the build.
 serviceAccount: '463108075328-compute@developer.gserviceaccount.com'
