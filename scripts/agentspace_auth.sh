@@ -12,10 +12,10 @@
 # These values are used if the corresponding environment variables are not already set.
 # In Cloud Build, these are provided by the build environment.
 
-PROJECT_ID=${PROJECT_ID:-"cymbal-telco-da"}
+PROJECT_ID=${PROJECT_ID:-"data-to-agents"}
 AUTH_ID=${AUTH_ID:-"data-agent-tool-auth"}
 AUTH_LOCATION=${AUTH_LOCATION:-"global"}
-OAUTH_CLIENT_ID=${OAUTH_CLIENT_ID:-"463108075328-ga42iip18h6a8pvnjv50dniu5231h3s8.apps.googleusercontent.com"}
+OAUTH_CLIENT_ID=${OAUTH_CLIENT_ID:-"991395937688-emt4tuqjl0995bffueqmq5ucqmle35f8.apps.googleusercontent.com"}
 OAUTH_CLIENT_SECRET=${OAUTH_CLIENT_SECRET:-"<your-oauth-client-secret-here>"}
 OAUTH_TOKEN_URI=${OAUTH_TOKEN_URI:-"https://oauth2.googleapis.com/token"}
 REQUESTED_SCOPES=${REQUESTED_SCOPES:-"openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/bigquery https://www.googleapis.com/auth/cloud-platform"}
